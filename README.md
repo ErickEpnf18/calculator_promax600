@@ -1,6 +1,6 @@
 # Calculator App with Xamarin :heart:
 ###### Integrants:
-###### Erick Andrade | Jhosef Rea Chamorro | Christian Soledispa | Josue Singaña
+###### Erick Andrade | Jhosef Rea | Christian Soledispa | Josue Singaña
 ### Welcome to the Xamarin Project with a basic calculator  of numbers
 !["First View"](imgs/0.jpg)
 ##### 1. Create a view whereby adding an Grid and TextView with an identifier as "@+id/calculator_text_view" is neccesary to catch the string of user will put
