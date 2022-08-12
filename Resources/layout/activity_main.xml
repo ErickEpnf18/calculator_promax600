@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#0E0E40">
+        <TextView
+            android:id="@+id/calculator_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="50sp"
+            android:textColor="#fff"
+            android:text="Tipea la operación" />
+    </HorizontalScrollView>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#aaa"
+        app:orientation="horizontal"
+        app:rowCount="5"
+        app:columnCount="4"
+        >
+        <!--  <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" android:padding="10dp">   
+  <solid android:color="#6E6E6E"/> -->
+        <!-- this one is ths color of the Rounded Button -->
+        <!--
+  <corners
+   android:bottomRightRadius="10dp"
+   android:bottomLeftRadius="10dp"
+   android:topLeftRadius="10dp"
+   android:topRightRadius="10dp"/>
+</shape>-->
+
+
+
+        <Button
+            style="@style/button_calculator"
+            app:layout_columnSpan="4"
+            android:text="DEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4BE7AA"
+                        android:background="#14145C"
+            android:radius="100dp"
+            
+        
+        />
+
+        <Button
+            style="@style/button_calculator"
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="÷"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#14145C"
+            android:background="#4BE7AA"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"    
+        
+        />
+        <Button
+            style="@style/button_calculator"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C" />
+        <Button
+            style="@style/button_calculator"
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C" />
+        <Button
+            style="@style/button_calculator"
+            android:text="×"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#14145C"
+            android:background="#4BE7AA" />
+        <Button
+            style="@style/button_calculator"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#14145C"
+            android:background="#4BE7AA" />
+        <Button
+            style="@style/button_calculator"
+            android:text="."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C" />
+        <Button
+            style="@style/button_calculator"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#14145C"/>
+        <Button
+            style="@style/button_calculator"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#14145C"
+            android:background="#4BE7AA" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/calculator_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="50sp"
+            android:text="123" />
+    </HorizontalScrollView>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+>
+    <TextView
+        android:text="2x2 button grid"
+        android:textSize="32dip"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 1" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Button 2" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 3" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Button 4" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 1" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Button 2" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+</GridLayout>
+</LinearLayout>-->

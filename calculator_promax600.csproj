@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.calculator_promax600</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="f80b984a-75a6-fbb0-02a2-dda48e28a279" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Android.Support.v7.GridLayout" Version="28.0.0.3" />
+  </ItemGroup>
+</Project>
